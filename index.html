@@ -628,7 +628,7 @@
 <section class="hero">
   <div class="hero-grid"></div>
   <div class="hero-content">
-    <span class="hero-tag">Proyecto académico · Ecuaciones Diferenciales · 2025</span>
+    <span class="hero-tag">Proyecto académico · Ecuaciones Diferenciales · 2026</span>
     <h1 class="hero-title">
       El Universo<br>
       <em>Oscila y Carga</em>
@@ -784,46 +784,6 @@
         </div>
       </div>
 
-      <h3 style="font-family:'Playfair Display',serif; font-size:1.4rem; margin:1.5rem 0 0.5rem; color:var(--rust);">4. Ejemplo aplicado paso a paso</h3>
-      <div class="steps">
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Datos del sistema</div>
-            <p>Una masa de <strong>m = 0.5 kg</strong> cuelga de un resorte con <strong>k = 8 N/m</strong>. Se jala 0.1 m hacia abajo y se suelta con velocidad inicial cero.</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Plantear la ecuación diferencial</div>
-            <p>0.5·x'' + 8·x = 0 &nbsp; ⟹ &nbsp; x'' + 16x = 0</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Calcular la frecuencia angular</div>
-            <p>ω = √(k/m) = √(8/0.5) = √16 = <strong>4 rad/s</strong></p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Aplicar condiciones iniciales</div>
-            <p>x(0) = 0.1 m &nbsp;⟹&nbsp; A = 0.1 | x'(0) = 0 &nbsp;⟹&nbsp; B = 0</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Solución particular</div>
-            <p><strong>x(t) = 0.1 · cos(4t)</strong> metros</p>
-            <p>El objeto oscila entre −0.1 m y +0.1 m con período T = 2π/4 ≈ <strong>1.57 segundos</strong>.</p>
-          </div>
-        </div>
-      </div>
-
       <h3 style="font-family:'Playfair Display',serif; font-size:1.4rem; margin:1.5rem 0 0.5rem; color:var(--rust);">5. Analogías con la vida real</h3>
       <div class="analogy-grid">
         <div class="analogy-card" data-emoji="🏋️">
@@ -899,42 +859,6 @@
           τ = R·C = constante de tiempo<br>
           A t = τ: el capacitor alcanza ≈ 63.2% de V₀<br>
           A t = 5τ: el capacitor está prácticamente cargado al 100%
-        </div>
-      </div>
-
-      <h3 style="font-family:'Playfair Display',serif; font-size:1.4rem; margin:1.5rem 0 0.5rem; color:var(--teal);">3. Ejemplo aplicado paso a paso</h3>
-      <div class="steps">
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Datos del circuito</div>
-            <p>R = 1000 Ω (1 kΩ), C = 100 µF = 100×10⁻⁶ F, V₀ = 12 V, condición inicial: V_C(0) = 0 V</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Calcular la constante de tiempo</div>
-            <p>τ = R·C = 1000 × 100×10⁻⁶ = <strong>0.1 segundos</strong></p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Aplicar la fórmula de solución</div>
-            <p>V_C(t) = 12·(1 − e^(−t/0.1)) = <strong>12·(1 − e^(−10t))</strong> voltios</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Interpretar los resultados clave</div>
-            <p>
-              t = 0.1 s: V_C ≈ 7.58 V (63.2%)<br>
-              t = 0.5 s: V_C ≈ 11.96 V (≈ 100%)<br>
-              La corriente inicial i(0) = V₀/R = 12 mA y decae exponencialmente.
-            </p>
-          </div>
         </div>
       </div>
 
@@ -1050,38 +974,7 @@
         </table>
       </div>
 
-      <h3 style="font-family:'Playfair Display',serif; font-size:1.4rem; margin:1.5rem 0 0.5rem; color:var(--violet);">4. Ejemplo aplicado paso a paso</h3>
-      <div class="steps">
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Datos del circuito</div>
-            <p>R = 50 Ω, L = 0.5 H, V₀ = 24 V, i(0) = 0 A</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Constante de tiempo</div>
-            <p>τ = L/R = 0.5/50 = <strong>0.01 s = 10 ms</strong></p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Corriente máxima</div>
-            <p>I_max = V₀/R = 24/50 = <strong>0.48 A</strong></p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-num"></div>
-          <div class="step-body">
-            <div class="step-title">Solución particular</div>
-            <p><strong>i(t) = 0.48·(1 − e^(−100t))</strong> amperios</p>
-            <p>A t = 10 ms: i ≈ 0.303 A. A t = 50 ms: i ≈ 0.477 A (≈ 100%)</p>
-          </div>
-        </div>
-      </div>
+      
 
       <div class="analogy-grid">
         <div class="analogy-card" data-emoji="🚂">
@@ -1312,35 +1205,33 @@
         <div class="ai-card-num">01</div>
         <div class="ai-tag">Texto · Estructura · Explicaciones</div>
         <h3>Claude (Anthropic)</h3>
-        <p>Se usó para generar las explicaciones académicas en lenguaje claro y accesible, crear la narrativa del storytelling, redactar retroalimentaciones del escape room y transformar fórmulas técnicas en analogías comprensibles para estudiantes. También generó el código HTML completo de esta página.</p>
+        <p>Se usó para generar las explicaciones académicas, También generó el código HTML completo de esta página.</p>
       </div>
 
       <div class="ai-card">
         <div class="ai-card-num">02</div>
         <div class="ai-tag">Visualización · Bocetos · Diseño</div>
-        <h3>DALL·E / Midjourney</h3>
-        <p>Se usó para generar bocetos conceptuales de los personajes (Resortín, el Capacitor, el Inductón) y propuestas visuales de la paleta de colores y estética del proyecto. Las imágenes sirvieron de referencia para el diseño sin ser usadas directamente.</p>
+        <h3>HEYGEN</h3>
+        <p>Se usó para generar videos de información adicional que explican las ecuaciones diferenciales</p>
       </div>
 
       <div class="ai-card">
         <div class="ai-card-num">03</div>
         <div class="ai-tag">Verificación · Cálculo simbólico</div>
-        <h3>Wolfram Alpha</h3>
-        <p>Se utilizó para verificar las soluciones analíticas de las EDOs presentadas, confirmar valores numéricos de los ejemplos paso a paso y graficar las funciones x(t) = A·cos(ωt) y V_C(t) = V₀(1−e^(−t/τ)) para validar su comportamiento.</p>
+        <h3>ChatGPT</h3>
+        <p>Se utilizó para generar prompts a cada IA utilizada y asegurar un trabajo mas detallado y hacer correcciones</p>
       </div>
 
       <div class="ai-card">
         <div class="ai-card-num">04</div>
         <div class="ai-tag">Ideas · Creatividad · Narrativa</div>
-        <h3>ChatGPT (OpenAI)</h3>
-        <p>Se usó en la fase de ideación para generar propuestas de nombres para los personajes, ideas de memes educativos y alternativas narrativas para el storytelling. Las ideas generadas fueron filtradas, adaptadas y reescritas manualmente.</p>
+        <h3>ElevenLabs, Meta AI</h3>
+        <p>Se usó para el video de entrada generando voces que narran una historia. Y Meta AI para  la generación de imagenes con movimiento</p>
       </div>
     </div>
 
     <div style="margin-top:2.5rem; border-top:1px solid rgba(200,150,42,0.2); padding-top:2rem;">
       <p style="color:rgba(245,240,232,0.5); font-family:'Space Mono',monospace; font-size:0.8rem; line-height:1.8;">
-        ⚠️ DECLARACIÓN DE USO ÉTICO: Todo contenido generado por IA fue revisado, verificado matemáticamente y adaptado por el equipo del proyecto. La IA fue una herramienta de apoyo, no el autor. Los ejemplos numéricos fueron calculados y comprobados manualmente. Las explicaciones fueron transformadas para ajustarse al nivel académico del curso.
-      </p>
     </div>
   </div>
 </section>
@@ -1348,7 +1239,7 @@
 <!-- ══════════ FOOTER ══════════ -->
 <footer>
   <p><strong>UNIVERSO φ</strong> — Proyecto de Ecuaciones Diferenciales</p>
-  <p style="margin-top:0.5rem; opacity:0.5;">Ley de Hooke · Circuito RC · Circuito RL · Modelado Matemático · 2025</p>
+  <p style="margin-top:0.5rem; opacity:0.5;">Ley de Hooke · Circuito RC · Circuito RL · Modelado Matemático · 2026</p>
   <p style="margin-top:0.5rem; opacity:0.3;">"Las ecuaciones diferenciales son el lenguaje del cambio."</p>
 </footer>
 
